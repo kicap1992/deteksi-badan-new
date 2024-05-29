@@ -1,3 +1,3 @@
-### Python Body Detection with landmark using mediapipe and OpenCV[]
+### Python Body Detection with landmark using mediapipe and OpenCV
 
-![The Image](image.png[])
+![alt text](image.png)
