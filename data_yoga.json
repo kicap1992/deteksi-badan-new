@@ -1,0 +1,1900 @@
+[    
+    {
+        "image_name": "gerakan/Camel.jpg",
+        "name" : "Camel",
+        "ket" :"Banyak pria cenderung memiliki otot dada dan perut yang pendek dan kencang karena latihan kekuatan.<br>Meskipun memiliki kekuatan pada otot-otot ini adalah hal yang bagus, tubuh sangat menyukai keseimbangan. Jadi Pose Unta adalah pose yoga yang sempurna bagi pria untuk memanjangkan jaringan tersebut.<br>Mulailah berlutut dengan jari-jari kaki terselip di bawah<br>Letakkan tangan Anda di belakang Anda pada sakrum (tulang berbentuk segitiga di bagian atas panggul Anda)<br>Tekan panggul Anda ke depan dan sedikit ke bawah untuk menciptakan panjang di punggung bawah Anda<br>Aktifkan otot inti, otot bokong, dan paha depan, lalu rapatkan siku dan tulang belikat di belakang punggung<br>Sedikit saja, condongkan tubuh Anda ke belakang untuk melebarkan dan membuka dada Anda<br>Anda bisa tetap apa adanya atau melepaskan tangan Anda untuk menangkap pergelangan kaki Anda. Jika Anda mengambil opsi ini, atur ulang dengan menekan panggul ke depan dan rapatkan tulang belikat untuk membuka dada.<br> Tahan beberapa kali napas dalam-dalam lalu tekuk lutut dalam-dalam dan lepaskan tempat duduk Anda ke tumit",
+        "landmarks": [
+            {
+                "body": "nose",
+                "coordinates": [
+                    0.46968916058540344,
+                    0.11870545148849487,
+                    -0.028154293075203896
+                ]
+            },
+            {
+                "body": "left_eye_inner",
+                "coordinates": [
+                    0.4579172730445862,
+                    0.12754136323928833,
+                    -0.0018040428403764963
+                ]
+            },
+            {
+                "body": "left_eye",
+                "coordinates": [
+                    0.4577982723712921,
+                    0.13050493597984314,
+                    -0.0018525688210502267
+                ]
+            },
+            {
+                "body": "left_eye_outer",
+                "coordinates": [
+                    0.45756247639656067,
+                    0.13363367319107056,
+                    -0.0018726283451542258
+                ]
+            },
+            {
+                "body": "right_eye_inner",
+                "coordinates": [
+                    0.4577472507953644,
+                    0.12954267859458923,
+                    -0.05427546426653862
+                ]
+            },
+            {
+                "body": "right_eye",
+                "coordinates": [
+                    0.4574420750141144,
+                    0.1336067020893097,
+                    -0.05436019226908684
+                ]
+            },
+            {
+                "body": "right_eye_outer",
+                "coordinates": [
+                    0.45695286989212036,
+                    0.13780272006988525,
+                    -0.05443570762872696
+                ]
+            },
+            {
+                "body": "left_ear",
+                "coordinates": [
+                    0.4581812918186188,
+                    0.1674295961856842,
+                    0.11361941695213318
+                ]
+            },
+            {
+                "body": "right_ear",
+                "coordinates": [
+                    0.4581093192100525,
+                    0.16936147212982178,
+                    -0.1234326958656311
+                ]
+            },
+            {
+                "body": "mouth_left",
+                "coordinates": [
+                    0.48456794023513794,
+                    0.13689377903938293,
+                    0.017247308045625687
+                ]
+            },
+            {
+                "body": "mouth_right",
+                "coordinates": [
+                    0.4835347533226013,
+                    0.13828915357589722,
+                    -0.05038198083639145
+                ]
+            },
+            {
+                "body": "left_shoulder",
+                "coordinates": [
+                    0.5035765171051025,
+                    0.28476986289024353,
+                    0.23859167098999023
+                ]
+            },
+            {
+                "body": "right_shoulder",
+                "coordinates": [
+                    0.5022602081298828,
+                    0.2642785310745239,
+                    -0.25314030051231384
+                ]
+            },
+            {
+                "body": "left_elbow",
+                "coordinates": [
+                    0.45075830817222595,
+                    0.43103155493736267,
+                    0.23742030560970306
+                ]
+            },
+            {
+                "body": "right_elbow",
+                "coordinates": [
+                    0.43365922570228577,
+                    0.4295656979084015,
+                    -0.31189972162246704
+                ]
+            },
+            {
+                "body": "left_wrist",
+                "coordinates": [
+                    0.5495773553848267,
+                    0.4712955355644226,
+                    0.09969490766525269
+                ]
+            },
+            {
+                "body": "right_wrist",
+                "coordinates": [
+                    0.5418573021888733,
+                    0.46293503046035767,
+                    -0.239918053150177
+                ]
+            },
+            {
+                "body": "left_pinky",
+                "coordinates": [
+                    0.561010479927063,
+                    0.488374799489975,
+                    0.09217856079339981
+                ]
+            },
+            {
+                "body": "right_pinky",
+                "coordinates": [
+                    0.5646275877952576,
+                    0.4875805974006653,
+                    -0.2627395689487457
+                ]
+            },
+            {
+                "body": "left_index",
+                "coordinates": [
+                    0.5691637396812439,
+                    0.48298078775405884,
+                    0.04654917120933533
+                ]
+            },
+            {
+                "body": "right_index",
+                "coordinates": [
+                    0.5713502764701843,
+                    0.48390454053878784,
+                    -0.22921301424503326
+                ]
+            },
+            {
+                "body": "left_thumb",
+                "coordinates": [
+                    0.5669700503349304,
+                    0.4752260446548462,
+                    0.0725509524345398
+                ]
+            },
+            {
+                "body": "right_thumb",
+                "coordinates": [
+                    0.5663248300552368,
+                    0.474887877702713,
+                    -0.22232767939567566
+                ]
+            },
+            {
+                "body": "left_hip",
+                "coordinates": [
+                    0.5930876731872559,
+                    0.604152262210846,
+                    0.16886958479881287
+                ]
+            },
+            {
+                "body": "right_hip",
+                "coordinates": [
+                    0.5874229669570923,
+                    0.6012442111968994,
+                    -0.1686878204345703
+                ]
+            },
+            {
+                "body": "left_knee",
+                "coordinates": [
+                    0.5856032371520996,
+                    0.8489358425140381,
+                    0.21099387109279633
+                ]
+            },
+            {
+                "body": "right_knee",
+                "coordinates": [
+                    0.5737423896789551,
+                    0.893173336982727,
+                    -0.28304243087768555
+                ]
+            },
+            {
+                "body": "left_ankle",
+                "coordinates": [
+                    0.38951557874679565,
+                    0.829948365688324,
+                    0.317647248506546
+                ]
+            },
+            {
+                "body": "right_ankle",
+                "coordinates": [
+                    0.3756141662597656,
+                    0.8483847379684448,
+                    -0.1306692361831665
+                ]
+            },
+            {
+                "body": "left_heel",
+                "coordinates": [
+                    0.3695504665374756,
+                    0.8004841804504395,
+                    0.3208514153957367
+                ]
+            },
+            {
+                "body": "right_heel",
+                "coordinates": [
+                    0.35620182752609253,
+                    0.8244410753250122,
+                    -0.11247289180755615
+                ]
+            },
+            {
+                "body": "left_foot_index",
+                "coordinates": [
+                    0.30767643451690674,
+                    0.8848143815994263,
+                    0.3294544219970703
+                ]
+            },
+            {
+                "body": "right_foot_index",
+                "coordinates": [
+                    0.2886659801006317,
+                    0.9085139632225037,
+                    -0.10856398195028305
+                ]
+            }
+        ]
+    },
+    {
+        "image_name": "gerakan/HalfSplit.jpg",
+        "name": "Half Split",
+        "ket":"Bukan rahasia lagi bahwa pria cenderung memiliki otot paha belakang yang kaku. Bagi kebanyakan pria, hal ini mungkin disebabkan oleh olahraga yang mereka lakukan atau sekadar cara mereka duduk di tempat kerja. Untungnya, ada pose yoga yang sempurna untuk membantu<br>Start on all fours with your shoulders stacked over your wrists and your hips stacked over your knees<br>Step your right foot forward next to your right thumb<br>Flex your right ankle and point your toes toward the sky<br>Keep your hips aligned over your left knee and slide your right heel forward to work your leg toward straight as far as you comfortably can<br>Energetically draw your front heel and your back knee toward each other to square your hips toward the top of your mat<br>Option to stay as you are or lead with your chest and hinge from your hips to fold forward over your right leg<br>Hold for a few deep breaths and then switch sides",
+        "landmarks": [
+            {
+                "body": "nose",
+                "coordinates": [
+                    0.683266282081604,
+                    0.2686835527420044,
+                    -0.18590739369392395
+                ]
+            },
+            {
+                "body": "left_eye_inner",
+                "coordinates": [
+                    0.6768478155136108,
+                    0.24436548352241516,
+                    -0.1674782782793045
+                ]
+            },
+            {
+                "body": "left_eye",
+                "coordinates": [
+                    0.6751382946968079,
+                    0.24312308430671692,
+                    -0.16754263639450073
+                ]
+            },
+            {
+                "body": "left_eye_outer",
+                "coordinates": [
+                    0.6730958223342896,
+                    0.24174124002456665,
+                    -0.16753871738910675
+                ]
+            },
+            {
+                "body": "right_eye_inner",
+                "coordinates": [
+                    0.6752146482467651,
+                    0.24611634016036987,
+                    -0.21429353952407837
+                ]
+            },
+            {
+                "body": "right_eye",
+                "coordinates": [
+                    0.6728615760803223,
+                    0.2459142804145813,
+                    -0.21431389451026917
+                ]
+            },
+            {
+                "body": "right_eye_outer",
+                "coordinates": [
+                    0.6703195571899414,
+                    0.24554499983787537,
+                    -0.21432161331176758
+                ]
+            },
+            {
+                "body": "left_ear",
+                "coordinates": [
+                    0.6512050628662109,
+                    0.24419963359832764,
+                    -0.06753339618444443
+                ]
+            },
+            {
+                "body": "right_ear",
+                "coordinates": [
+                    0.6496714353561401,
+                    0.2503676414489746,
+                    -0.2808808386325836
+                ]
+            },
+            {
+                "body": "mouth_left",
+                "coordinates": [
+                    0.6739541292190552,
+                    0.28887149691581726,
+                    -0.14724615216255188
+                ]
+            },
+            {
+                "body": "mouth_right",
+                "coordinates": [
+                    0.6721764802932739,
+                    0.28909826278686523,
+                    -0.20918911695480347
+                ]
+            },
+            {
+                "body": "left_shoulder",
+                "coordinates": [
+                    0.5784639120101929,
+                    0.34637296199798584,
+                    0.10117281228303909
+                ]
+            },
+            {
+                "body": "right_shoulder",
+                "coordinates": [
+                    0.5883826017379761,
+                    0.38393449783325195,
+                    -0.3761877715587616
+                ]
+            },
+            {
+                "body": "left_elbow",
+                "coordinates": [
+                    0.5471467971801758,
+                    0.5331466197967529,
+                    0.11141511797904968
+                ]
+            },
+            {
+                "body": "right_elbow",
+                "coordinates": [
+                    0.5694680213928223,
+                    0.5929822325706482,
+                    -0.42028486728668213
+                ]
+            },
+            {
+                "body": "left_wrist",
+                "coordinates": [
+                    0.5730907917022705,
+                    0.709903359413147,
+                    0.07444076985120773
+                ]
+            },
+            {
+                "body": "right_wrist",
+                "coordinates": [
+                    0.571413516998291,
+                    0.7840956449508667,
+                    -0.3700762689113617
+                ]
+            },
+            {
+                "body": "left_pinky",
+                "coordinates": [
+                    0.575095534324646,
+                    0.7268645763397217,
+                    0.10473869740962982
+                ]
+            },
+            {
+                "body": "right_pinky",
+                "coordinates": [
+                    0.5674286484718323,
+                    0.8305732011795044,
+                    -0.4249723553657532
+                ]
+            },
+            {
+                "body": "left_index",
+                "coordinates": [
+                    0.5786199569702148,
+                    0.7395034432411194,
+                    0.051894962787628174
+                ]
+            },
+            {
+                "body": "right_index",
+                "coordinates": [
+                    0.5783622860908508,
+                    0.837115466594696,
+                    -0.3820144534111023
+                ]
+            },
+            {
+                "body": "left_thumb",
+                "coordinates": [
+                    0.5776020884513855,
+                    0.7357557415962219,
+                    0.05509005859494209
+                ]
+            },
+            {
+                "body": "right_thumb",
+                "coordinates": [
+                    0.5804824829101562,
+                    0.8212649822235107,
+                    -0.3557504415512085
+                ]
+            },
+            {
+                "body": "left_hip",
+                "coordinates": [
+                    0.4516178369522095,
+                    0.5715368390083313,
+                    0.13234356045722961
+                ]
+            },
+            {
+                "body": "right_hip",
+                "coordinates": [
+                    0.40766799449920654,
+                    0.5849729776382446,
+                    -0.13233380019664764
+                ]
+            },
+            {
+                "body": "left_knee",
+                "coordinates": [
+                    0.6152433753013611,
+                    0.640227198600769,
+                    0.13092564046382904
+                ]
+            },
+            {
+                "body": "right_knee",
+                "coordinates": [
+                    0.3712439239025116,
+                    0.8453410863876343,
+                    -0.15457281470298767
+                ]
+            },
+            {
+                "body": "left_ankle",
+                "coordinates": [
+                    0.7656735181808472,
+                    0.8142309188842773,
+                    0.16184589266777039
+                ]
+            },
+            {
+                "body": "right_ankle",
+                "coordinates": [
+                    0.1979011595249176,
+                    0.767743706703186,
+                    0.05592133849859238
+                ]
+            },
+            {
+                "body": "left_heel",
+                "coordinates": [
+                    0.7845024466514587,
+                    0.857850193977356,
+                    0.15867379307746887
+                ]
+            },
+            {
+                "body": "right_heel",
+                "coordinates": [
+                    0.17397364974021912,
+                    0.7296044826507568,
+                    0.0801004022359848
+                ]
+            },
+            {
+                "body": "left_foot_index",
+                "coordinates": [
+                    0.85279381275177,
+                    0.7663835883140564,
+                    0.11849836260080338
+                ]
+            },
+            {
+                "body": "right_foot_index",
+                "coordinates": [
+                    0.16145814955234528,
+                    0.8513583540916443,
+                    0.07084006071090698
+                ]
+            }
+        ]
+    },
+    {
+        "image_name": "gerakan/WildStraddleForwardFold.jpg",
+        "name": "Wild Straddle Forward Fold",
+        "ket": "Pose yoga sempurna lainnya bagi pria untuk membuka paha belakang mereka, lipatan ke depan ini bekerja dengan kaki berjauhan untuk menargetkan aspek dalam kelompok hamstring.<br>Mulailah berdiri menghadap tepi panjang matras Anda<br>Jalankan kaki Anda lebar-lebar sampai jaraknya kira-kira berjarak satu kaki Anda satu sama lain<br>Putar jari-jari kaki ke dalam dan tumit ke luar sedikit untuk menciptakan rotasi internal yang halus pada tulang paha Anda<br>Rooting secara merata ke dasar tripod kaki Anda<br>Tarik tangan Anda ke pinggul dan panjangkan tulang belakang Anda<br>Pertahankan panjangnya saat Anda memimpin dengan dada dan lipat ke depan melewati kaki Anda<br>Anda dapat menjaga tangan Anda tetap di tempatnya atau melepaskannya ke posisi yang nyaman<br>Tahan beberapa kali napas dalam-dalam sebelum perlahan bangkit kembali untuk berdiri",
+        "landmarks": [
+            {
+                "body": "nose",
+                "coordinates": [
+                    0.5155458450317383,
+                    0.4805642366409302,
+                    -0.6261724829673767
+                ]
+            },
+            {
+                "body": "left_eye_inner",
+                "coordinates": [
+                    0.5232765078544617,
+                    0.4836512804031372,
+                    -0.6542757749557495
+                ]
+            },
+            {
+                "body": "left_eye",
+                "coordinates": [
+                    0.5287082195281982,
+                    0.48193487524986267,
+                    -0.6539917588233948
+                ]
+            },
+            {
+                "body": "left_eye_outer",
+                "coordinates": [
+                    0.5349137187004089,
+                    0.4804612696170807,
+                    -0.6537879109382629
+                ]
+            },
+            {
+                "body": "right_eye_inner",
+                "coordinates": [
+                    0.5078628659248352,
+                    0.48531097173690796,
+                    -0.6507297158241272
+                ]
+            },
+            {
+                "body": "right_eye",
+                "coordinates": [
+                    0.5022240281105042,
+                    0.48474764823913574,
+                    -0.6506521105766296
+                ]
+            },
+            {
+                "body": "right_eye_outer",
+                "coordinates": [
+                    0.4961968958377838,
+                    0.48477789759635925,
+                    -0.6504373550415039
+                ]
+            },
+            {
+                "body": "left_ear",
+                "coordinates": [
+                    0.5441648364067078,
+                    0.45754557847976685,
+                    -0.6458439826965332
+                ]
+            },
+            {
+                "body": "right_ear",
+                "coordinates": [
+                    0.4802183508872986,
+                    0.46105656027793884,
+                    -0.6316128969192505
+                ]
+            },
+            {
+                "body": "mouth_left",
+                "coordinates": [
+                    0.5196376442909241,
+                    0.45743852853775024,
+                    -0.6054919958114624
+                ]
+            },
+            {
+                "body": "mouth_right",
+                "coordinates": [
+                    0.5023247599601746,
+                    0.45846402645111084,
+                    -0.6021519899368286
+                ]
+            },
+            {
+                "body": "left_shoulder",
+                "coordinates": [
+                    0.588857889175415,
+                    0.40163400769233704,
+                    -0.4691599905490875
+                ]
+            },
+            {
+                "body": "right_shoulder",
+                "coordinates": [
+                    0.426845908164978,
+                    0.39995571970939636,
+                    -0.4235488772392273
+                ]
+            },
+            {
+                "body": "left_elbow",
+                "coordinates": [
+                    0.6447442770004272,
+                    0.5754228830337524,
+                    -0.3746144473552704
+                ]
+            },
+            {
+                "body": "right_elbow",
+                "coordinates": [
+                    0.37582653760910034,
+                    0.5647110939025879,
+                    -0.3046969175338745
+                ]
+            },
+            {
+                "body": "left_wrist",
+                "coordinates": [
+                    0.6992396712303162,
+                    0.7771642804145813,
+                    -0.3389325439929962
+                ]
+            },
+            {
+                "body": "right_wrist",
+                "coordinates": [
+                    0.32291853427886963,
+                    0.7762100696563721,
+                    -0.2617852985858917
+                ]
+            },
+            {
+                "body": "left_pinky",
+                "coordinates": [
+                    0.7161451578140259,
+                    0.8180456161499023,
+                    -0.3778041899204254
+                ]
+            },
+            {
+                "body": "right_pinky",
+                "coordinates": [
+                    0.3047533333301544,
+                    0.8066073060035706,
+                    -0.30054986476898193
+                ]
+            },
+            {
+                "body": "left_index",
+                "coordinates": [
+                    0.7108607292175293,
+                    0.8290217518806458,
+                    -0.3894573152065277
+                ]
+            },
+            {
+                "body": "right_index",
+                "coordinates": [
+                    0.31200748682022095,
+                    0.8129535913467407,
+                    -0.3124769330024719
+                ]
+            },
+            {
+                "body": "left_thumb",
+                "coordinates": [
+                    0.7032812833786011,
+                    0.8161969184875488,
+                    -0.3420890271663666
+                ]
+            },
+            {
+                "body": "right_thumb",
+                "coordinates": [
+                    0.3226603865623474,
+                    0.8036625981330872,
+                    -0.2678382694721222
+                ]
+            },
+            {
+                "body": "left_hip",
+                "coordinates": [
+                    0.5529286861419678,
+                    0.2586890161037445,
+                    -0.005294534377753735
+                ]
+            },
+            {
+                "body": "right_hip",
+                "coordinates": [
+                    0.46653932332992554,
+                    0.2595316767692566,
+                    0.005149073898792267
+                ]
+            },
+            {
+                "body": "left_knee",
+                "coordinates": [
+                    0.6402777433395386,
+                    0.5535396337509155,
+                    -0.04410373046994209
+                ]
+            },
+            {
+                "body": "right_knee",
+                "coordinates": [
+                    0.38621270656585693,
+                    0.5252649784088135,
+                    -0.003907670732587576
+                ]
+            },
+            {
+                "body": "left_ankle",
+                "coordinates": [
+                    0.7015863060951233,
+                    0.7927077412605286,
+                    0.0693134143948555
+                ]
+            },
+            {
+                "body": "right_ankle",
+                "coordinates": [
+                    0.3155369162559509,
+                    0.7915878891944885,
+                    0.09820143133401871
+                ]
+            },
+            {
+                "body": "left_heel",
+                "coordinates": [
+                    0.707756757736206,
+                    0.8293365836143494,
+                    0.07531704008579254
+                ]
+            },
+            {
+                "body": "right_heel",
+                "coordinates": [
+                    0.31166398525238037,
+                    0.8301788568496704,
+                    0.10467980057001114
+                ]
+            },
+            {
+                "body": "left_foot_index",
+                "coordinates": [
+                    0.7223882675170898,
+                    0.873778223991394,
+                    -0.13745783269405365
+                ]
+            },
+            {
+                "body": "right_foot_index",
+                "coordinates": [
+                    0.2922964096069336,
+                    0.8774781823158264,
+                    -0.06679555028676987
+                ]
+            }
+        ]
+    },
+    {
+        "image_name": "gerakan/SidePlank.jpg",
+        "name": "Side Plank",
+        "ket": "Side Plank adalah pose yoga yang bagus untuk pria yang ingin merasakan kekuatan saat berlatih yoga. Karena yoga lebih dari sekadar peregangan, pose ini sebenarnya cukup menantang bagi banyak pria untuk menjadi stabil sehingga merupakan tantangan sempurna untuk membangun kekuatan dan keseimbangan.<br>Mulailah dengan Pose Papan netral dengan kaki bersentuhan<br>Akar dengan kuat ke tangan kanan Anda dan tuangkan beban Anda ke sisi kanan tubuh Anda<br>Gulingkan ke sisi kelingking kaki kanan Anda dan susun kaki kiri Anda di atas kaki kanan Anda<br>Turunkan tubuh ke lantai dengan tangan dan kaki, lalu angkat pinggul menjauh dari matras<br>Regangkan lengan kiri Anda ke langit<br>Tahan beberapa kali napas dalam-dalam lalu ganti sisi",
+        "landmarks": [
+            {
+                "body": "nose",
+                "coordinates": [
+                    0.7098162174224854,
+                    0.4569375216960907,
+                    -0.43993350863456726
+                ]
+            },
+            {
+                "body": "left_eye_inner",
+                "coordinates": [
+                    0.7251797318458557,
+                    0.47123992443084717,
+                    -0.4204886555671692
+                ]
+            },
+            {
+                "body": "left_eye",
+                "coordinates": [
+                    0.7261665463447571,
+                    0.47927266359329224,
+                    -0.4205434322357178
+                ]
+            },
+            {
+                "body": "left_eye_outer",
+                "coordinates": [
+                    0.7271681427955627,
+                    0.4877326190471649,
+                    -0.42069318890571594
+                ]
+            },
+            {
+                "body": "right_eye_inner",
+                "coordinates": [
+                    0.7234879732131958,
+                    0.4508434236049652,
+                    -0.4142134487628937
+                ]
+            },
+            {
+                "body": "right_eye",
+                "coordinates": [
+                    0.7235473394393921,
+                    0.44637542963027954,
+                    -0.4142872393131256
+                ]
+            },
+            {
+                "body": "right_eye_outer",
+                "coordinates": [
+                    0.72352534532547,
+                    0.4414880871772766,
+                    -0.4142611026763916
+                ]
+            },
+            {
+                "body": "left_ear",
+                "coordinates": [
+                    0.7266677021980286,
+                    0.5080437660217285,
+                    -0.27510419487953186
+                ]
+            },
+            {
+                "body": "right_ear",
+                "coordinates": [
+                    0.7228119373321533,
+                    0.4497060477733612,
+                    -0.24739260971546173
+                ]
+            },
+            {
+                "body": "mouth_left",
+                "coordinates": [
+                    0.6963652968406677,
+                    0.47936636209487915,
+                    -0.38349977135658264
+                ]
+            },
+            {
+                "body": "mouth_right",
+                "coordinates": [
+                    0.6949125528335571,
+                    0.4527930021286011,
+                    -0.3757424056529999
+                ]
+            },
+            {
+                "body": "left_shoulder",
+                "coordinates": [
+                    0.6616856455802917,
+                    0.5975712537765503,
+                    -0.14586275815963745
+                ]
+            },
+            {
+                "body": "right_shoulder",
+                "coordinates": [
+                    0.6592086553573608,
+                    0.4010165333747864,
+                    -0.14102506637573242
+                ]
+            },
+            {
+                "body": "left_elbow",
+                "coordinates": [
+                    0.6435102224349976,
+                    0.7407686710357666,
+                    -0.1331832855939865
+                ]
+            },
+            {
+                "body": "right_elbow",
+                "coordinates": [
+                    0.6343681216239929,
+                    0.2664838135242462,
+                    -0.13378147780895233
+                ]
+            },
+            {
+                "body": "left_wrist",
+                "coordinates": [
+                    0.6483306884765625,
+                    0.8784486055374146,
+                    -0.312683641910553
+                ]
+            },
+            {
+                "body": "right_wrist",
+                "coordinates": [
+                    0.6353558301925659,
+                    0.1287083625793457,
+                    -0.29510271549224854
+                ]
+            },
+            {
+                "body": "left_pinky",
+                "coordinates": [
+                    0.6662757992744446,
+                    0.8944035768508911,
+                    -0.3472563624382019
+                ]
+            },
+            {
+                "body": "right_pinky",
+                "coordinates": [
+                    0.6349470615386963,
+                    0.08301430940628052,
+                    -0.3394726514816284
+                ]
+            },
+            {
+                "body": "left_index",
+                "coordinates": [
+                    0.6702272891998291,
+                    0.8951166868209839,
+                    -0.39849695563316345
+                ]
+            },
+            {
+                "body": "right_index",
+                "coordinates": [
+                    0.6397250294685364,
+                    0.0813528299331665,
+                    -0.3793392777442932
+                ]
+            },
+            {
+                "body": "left_thumb",
+                "coordinates": [
+                    0.6614180207252502,
+                    0.893438458442688,
+                    -0.3408251702785492
+                ]
+            },
+            {
+                "body": "right_thumb",
+                "coordinates": [
+                    0.6385964751243591,
+                    0.09477406740188599,
+                    -0.3216344714164734
+                ]
+            },
+            {
+                "body": "left_hip",
+                "coordinates": [
+                    0.4968375861644745,
+                    0.6325719356536865,
+                    0.013312475755810738
+                ]
+            },
+            {
+                "body": "right_hip",
+                "coordinates": [
+                    0.4600812792778015,
+                    0.5501070618629456,
+                    -0.013295695185661316
+                ]
+            },
+            {
+                "body": "left_knee",
+                "coordinates": [
+                    0.3700864613056183,
+                    0.7610329985618591,
+                    -0.027371346950531006
+                ]
+            },
+            {
+                "body": "right_knee",
+                "coordinates": [
+                    0.3484456241130829,
+                    0.7027431726455688,
+                    -0.06001186743378639
+                ]
+            },
+            {
+                "body": "left_ankle",
+                "coordinates": [
+                    0.23582607507705688,
+                    0.8720247745513916,
+                    0.09060442447662354
+                ]
+            },
+            {
+                "body": "right_ankle",
+                "coordinates": [
+                    0.21887026727199554,
+                    0.8373360633850098,
+                    0.04682646319270134
+                ]
+            },
+            {
+                "body": "left_heel",
+                "coordinates": [
+                    0.21965157985687256,
+                    0.8809549808502197,
+                    0.09259264916181564
+                ]
+            },
+            {
+                "body": "right_heel",
+                "coordinates": [
+                    0.2048492431640625,
+                    0.8526101112365723,
+                    0.0474533811211586
+                ]
+            },
+            {
+                "body": "left_foot_index",
+                "coordinates": [
+                    0.19632641971111298,
+                    0.9135346412658691,
+                    -0.10043893754482269
+                ]
+            },
+            {
+                "body": "right_foot_index",
+                "coordinates": [
+                    0.18483410775661469,
+                    0.8908615112304688,
+                    -0.13688577711582184
+                ]
+            }
+        ]
+    },
+    {
+        "image_name": "gerakan/Dolphin.jpg",
+        "name": "Dolphin",
+        "ket": "Pose yoga hebat lainnya untuk membangun kekuatan dan kelenturan, Pose Lumba-lumba memperkuat dan meregangkan dada dan bahu sekaligus menciptakan panjang di bagian belakang kaki.<br>Mulailah dengan posisi merangkak dengan bahu bertumpu pada pergelangan tangan dan pinggul bertumpu pada lutut<br>Turunkan lengan bawah Anda ke lantai dan sejajarkan siku di bawah bahu Anda<br>Turunkan dengan kuat ke lengan bawah Anda dan selipkan jari-jari kaki Anda ke bawah<br>Angkat lutut dari lantai dan regangkan kaki ke arah lurus<br>Arahkan tulang duduk Anda ke arah langit dan panjangkan seluruh tubuh punggung Anda<br>Terus turunkan tubuh ke lengan bawah dan tekan lantai menjauh saat Anda meleburkan dada ke arah paha<br> Tahan beberapa kali napas dalam-dalam sebelum melepaskannya kembali secara perlahan",
+        "landmarks": [
+            {
+                "body": "nose",
+                "coordinates": [
+                    0.6843224167823792,
+                    0.7867915630340576,
+                    0.007792915217578411
+                ]
+            },
+            {
+                "body": "left_eye_inner",
+                "coordinates": [
+                    0.6982460021972656,
+                    0.7978988885879517,
+                    0.023978769779205322
+                ]
+            },
+            {
+                "body": "left_eye",
+                "coordinates": [
+                    0.6998078227043152,
+                    0.7972776889801025,
+                    0.02383337914943695
+                ]
+            },
+            {
+                "body": "left_eye_outer",
+                "coordinates": [
+                    0.7018256187438965,
+                    0.7967249751091003,
+                    0.023737428709864616
+                ]
+            },
+            {
+                "body": "right_eye_inner",
+                "coordinates": [
+                    0.7009738087654114,
+                    0.7966487407684326,
+                    -0.02601107768714428
+                ]
+            },
+            {
+                "body": "right_eye",
+                "coordinates": [
+                    0.7043293714523315,
+                    0.7947158813476562,
+                    -0.026141010224819183
+                ]
+            },
+            {
+                "body": "right_eye_outer",
+                "coordinates": [
+                    0.7080330848693848,
+                    0.7928115725517273,
+                    -0.02617897465825081
+                ]
+            },
+            {
+                "body": "left_ear",
+                "coordinates": [
+                    0.7163191437721252,
+                    0.7732642889022827,
+                    0.12233810126781464
+                ]
+            },
+            {
+                "body": "right_ear",
+                "coordinates": [
+                    0.7212889194488525,
+                    0.770534873008728,
+                    -0.10985520482063293
+                ]
+            },
+            {
+                "body": "mouth_left",
+                "coordinates": [
+                    0.681481122970581,
+                    0.7661354541778564,
+                    0.048803988844156265
+                ]
+            },
+            {
+                "body": "mouth_right",
+                "coordinates": [
+                    0.6851271390914917,
+                    0.7642875909805298,
+                    -0.01917620562016964
+                ]
+            },
+            {
+                "body": "left_shoulder",
+                "coordinates": [
+                    0.6901950240135193,
+                    0.678408145904541,
+                    0.24474893510341644
+                ]
+            },
+            {
+                "body": "right_shoulder",
+                "coordinates": [
+                    0.7028524279594421,
+                    0.6920257806777954,
+                    -0.21413485705852509
+                ]
+            },
+            {
+                "body": "left_elbow",
+                "coordinates": [
+                    0.6924396753311157,
+                    0.8409109115600586,
+                    0.4287886619567871
+                ]
+            },
+            {
+                "body": "right_elbow",
+                "coordinates": [
+                    0.7083194851875305,
+                    0.8894730806350708,
+                    -0.2994592487812042
+                ]
+            },
+            {
+                "body": "left_wrist",
+                "coordinates": [
+                    0.790278434753418,
+                    0.8663578033447266,
+                    0.4406212866306305
+                ]
+            },
+            {
+                "body": "right_wrist",
+                "coordinates": [
+                    0.8122759461402893,
+                    0.8971265554428101,
+                    -0.07922858744859695
+                ]
+            },
+            {
+                "body": "left_pinky",
+                "coordinates": [
+                    0.8207050561904907,
+                    0.8718618750572205,
+                    0.45191624760627747
+                ]
+            },
+            {
+                "body": "right_pinky",
+                "coordinates": [
+                    0.8562626838684082,
+                    0.8964477777481079,
+                    -0.09679531306028366
+                ]
+            },
+            {
+                "body": "left_index",
+                "coordinates": [
+                    0.8259179592132568,
+                    0.862907886505127,
+                    0.43286991119384766
+                ]
+            },
+            {
+                "body": "right_index",
+                "coordinates": [
+                    0.8538448214530945,
+                    0.8585608005523682,
+                    -0.10031750053167343
+                ]
+            },
+            {
+                "body": "left_thumb",
+                "coordinates": [
+                    0.8150687217712402,
+                    0.8554471731185913,
+                    0.4281766414642334
+                ]
+            },
+            {
+                "body": "right_thumb",
+                "coordinates": [
+                    0.8399573564529419,
+                    0.8561289310455322,
+                    -0.07788088172674179
+                ]
+            },
+            {
+                "body": "left_hip",
+                "coordinates": [
+                    0.5260228514671326,
+                    0.38588520884513855,
+                    0.18303664028644562
+                ]
+            },
+            {
+                "body": "right_hip",
+                "coordinates": [
+                    0.5276482105255127,
+                    0.38163620233535767,
+                    -0.18260757625102997
+                ]
+            },
+            {
+                "body": "left_knee",
+                "coordinates": [
+                    0.3823971748352051,
+                    0.6091682314872742,
+                    0.17168764770030975
+                ]
+            },
+            {
+                "body": "right_knee",
+                "coordinates": [
+                    0.3792652189731598,
+                    0.6195148229598999,
+                    -0.14887301623821259
+                ]
+            },
+            {
+                "body": "left_ankle",
+                "coordinates": [
+                    0.2077355533838272,
+                    0.7839767932891846,
+                    0.2007771134376526
+                ]
+            },
+            {
+                "body": "right_ankle",
+                "coordinates": [
+                    0.18811026215553284,
+                    0.7911090850830078,
+                    -0.13209345936775208
+                ]
+            },
+            {
+                "body": "left_heel",
+                "coordinates": [
+                    0.18081320822238922,
+                    0.8039306402206421,
+                    0.19741442799568176
+                ]
+            },
+            {
+                "body": "right_heel",
+                "coordinates": [
+                    0.16176638007164001,
+                    0.8074171543121338,
+                    -0.13716663420200348
+                ]
+            },
+            {
+                "body": "left_foot_index",
+                "coordinates": [
+                    0.259407639503479,
+                    0.8775787353515625,
+                    0.11939527839422226
+                ]
+            },
+            {
+                "body": "right_foot_index",
+                "coordinates": [
+                    0.2452431619167328,
+                    0.8928111791610718,
+                    -0.25604158639907837
+                ]
+            }
+        ]
+    },
+    {
+        "image_name": "gerakan/Crow.jpg",
+        "name": "Crow",
+        "ket":"Postur kuat lainnya, Crow Pose adalah salah satu pose yoga terbaik untuk pria karena menyeimbangkan kekuatan dan mobilitas dengan sempurna.<br>Mulailah dengan posisi berdiri ke depan dengan lutut ditekuk dalam-dalam<br>Letakkan telapak tangan Anda di lantai, kira-kira selebar bahu dan rentangkan jari Anda lebar-lebar<br>Bangkitlah dengan ujung kaki Anda dan angkat pinggul Anda tinggi-tinggi<br>Rentangkan lutut Anda dan geser setinggi mungkin ke atas lengan Anda (semakin dekat ke ketiak, semakin baik!)<br>Remas kaki Anda di sekitar lengan atas dan tekan lengan atas ke kaki secara merata<br>Bulatkan punggung Anda dalam-dalam dan lihat ke depan<br>Condongkan beban Anda ke depan hingga kaki Anda menjadi ringan dan mudah terangkat dari lantai<br>Dekatkan tumit Anda ke arah tempat duduk, bulatkan punggung Anda lebih banyak, dan tekan lantai menjauh untuk mengangkat pinggul Anda lebih tinggi<br>Tahan gravitasi selama beberapa kali menarik napas dalam-dalam sebelum melepaskannya kembali dengan hati-hati",
+        "landmarks": [
+            {
+                "body": "nose",
+                "coordinates": [
+                    0.7226868271827698,
+                    0.6655778884887695,
+                    -0.1265951544046402
+                ]
+            },
+            {
+                "body": "left_eye_inner",
+                "coordinates": [
+                    0.7307257056236267,
+                    0.6483253240585327,
+                    -0.10726030170917511
+                ]
+            },
+            {
+                "body": "left_eye",
+                "coordinates": [
+                    0.7304824590682983,
+                    0.6456462144851685,
+                    -0.10733871161937714
+                ]
+            },
+            {
+                "body": "left_eye_outer",
+                "coordinates": [
+                    0.7303394675254822,
+                    0.6426700949668884,
+                    -0.10739219188690186
+                ]
+            },
+            {
+                "body": "right_eye_inner",
+                "coordinates": [
+                    0.7300717830657959,
+                    0.6477510929107666,
+                    -0.1585528403520584
+                ]
+            },
+            {
+                "body": "right_eye",
+                "coordinates": [
+                    0.7293062210083008,
+                    0.6448209285736084,
+                    -0.15861408412456512
+                ]
+            },
+            {
+                "body": "right_eye_outer",
+                "coordinates": [
+                    0.7286452054977417,
+                    0.6416239738464355,
+                    -0.15861086547374725
+                ]
+            },
+            {
+                "body": "left_ear",
+                "coordinates": [
+                    0.7194051742553711,
+                    0.6136370897293091,
+                    -0.00011396865011192858
+                ]
+            },
+            {
+                "body": "right_ear",
+                "coordinates": [
+                    0.7177087068557739,
+                    0.6147538423538208,
+                    -0.22837106883525848
+                ]
+            },
+            {
+                "body": "mouth_left",
+                "coordinates": [
+                    0.7080360651016235,
+                    0.6635332107543945,
+                    -0.08274845778942108
+                ]
+            },
+            {
+                "body": "mouth_right",
+                "coordinates": [
+                    0.7070688009262085,
+                    0.6627302169799805,
+                    -0.14894472062587738
+                ]
+            },
+            {
+                "body": "left_shoulder",
+                "coordinates": [
+                    0.634232223033905,
+                    0.5496178269386292,
+                    0.16005976498126984
+                ]
+            },
+            {
+                "body": "right_shoulder",
+                "coordinates": [
+                    0.6255127191543579,
+                    0.578736424446106,
+                    -0.3126972019672394
+                ]
+            },
+            {
+                "body": "left_elbow",
+                "coordinates": [
+                    0.5080410838127136,
+                    0.6346775889396667,
+                    0.18633237481117249
+                ]
+            },
+            {
+                "body": "right_elbow",
+                "coordinates": [
+                    0.5058107376098633,
+                    0.6592086553573608,
+                    -0.3196057975292206
+                ]
+            },
+            {
+                "body": "left_wrist",
+                "coordinates": [
+                    0.5084099173545837,
+                    0.8043937087059021,
+                    0.11438540369272232
+                ]
+            },
+            {
+                "body": "right_wrist",
+                "coordinates": [
+                    0.5129246711730957,
+                    0.8438500165939331,
+                    -0.21948401629924774
+                ]
+            },
+            {
+                "body": "left_pinky",
+                "coordinates": [
+                    0.5374037027359009,
+                    0.8119715452194214,
+                    0.12113876640796661
+                ]
+            },
+            {
+                "body": "right_pinky",
+                "coordinates": [
+                    0.5393757820129395,
+                    0.8656847476959229,
+                    -0.26256588101387024
+                ]
+            },
+            {
+                "body": "left_index",
+                "coordinates": [
+                    0.5434010624885559,
+                    0.8177446126937866,
+                    0.08706431090831757
+                ]
+            },
+            {
+                "body": "right_index",
+                "coordinates": [
+                    0.5474581718444824,
+                    0.8545445203781128,
+                    -0.2257542908191681
+                ]
+            },
+            {
+                "body": "left_thumb",
+                "coordinates": [
+                    0.530760645866394,
+                    0.8183132410049438,
+                    0.09713220596313477
+                ]
+            },
+            {
+                "body": "right_thumb",
+                "coordinates": [
+                    0.5372455716133118,
+                    0.8481374979019165,
+                    -0.20543095469474792
+                ]
+            },
+            {
+                "body": "left_hip",
+                "coordinates": [
+                    0.46107959747314453,
+                    0.4271959364414215,
+                    0.14758922159671783
+                ]
+            },
+            {
+                "body": "right_hip",
+                "coordinates": [
+                    0.449899286031723,
+                    0.4322808086872101,
+                    -0.14745192229747772
+                ]
+            },
+            {
+                "body": "left_knee",
+                "coordinates": [
+                    0.5122367739677429,
+                    0.639738917350769,
+                    0.1588274985551834
+                ]
+            },
+            {
+                "body": "right_knee",
+                "coordinates": [
+                    0.5042678117752075,
+                    0.6682003736495972,
+                    -0.2018333077430725
+                ]
+            },
+            {
+                "body": "left_ankle",
+                "coordinates": [
+                    0.35673442482948303,
+                    0.6498540639877319,
+                    0.23664984107017517
+                ]
+            },
+            {
+                "body": "right_ankle",
+                "coordinates": [
+                    0.3385546803474426,
+                    0.6468837261199951,
+                    -0.03059401921927929
+                ]
+            },
+            {
+                "body": "left_heel",
+                "coordinates": [
+                    0.3325802683830261,
+                    0.6194269061088562,
+                    0.245758518576622
+                ]
+            },
+            {
+                "body": "right_heel",
+                "coordinates": [
+                    0.3236090838909149,
+                    0.6131404638290405,
+                    -0.008826227858662605
+                ]
+            },
+            {
+                "body": "left_foot_index",
+                "coordinates": [
+                    0.2948508858680725,
+                    0.7134906053543091,
+                    0.23250000178813934
+                ]
+            },
+            {
+                "body": "right_foot_index",
+                "coordinates": [
+                    0.27305924892425537,
+                    0.7067313194274902,
+                    0.0035359086468815804
+                ]
+            }
+        ]
+    },
+    {
+        "image_name": "gerakan/Childs.jpg",
+        "name": "Childs",
+        "ket": "Bahkan pria terkuat pun memerlukan istirahat, dan Pose Anak adalah pose yoga yang sempurna bagi pria untuk melakukan hal tersebut – istirahat dan memulihkan diri.<br>Mulailah dengan posisi merangkak dengan bahu bertumpu pada pergelangan tangan dan pinggul bertumpu pada lutut<br>Condongkan pinggul Anda ke belakang untuk bertumpu pada tumit Anda<br>Rentangkan kedua lutut Anda atau rapatkan – temukan yang lebih nyaman bagi Anda<br>Lepaskan kepala Anda ke penyangga atau lantai dan bulatkan seluruh punggung tubuh Anda<br>Relakskan lengan Anda ke posisi yang nyaman<br>Pejamkan mata Anda dan lakukan pelepasan lembut selama beberapa tarikan napas panjang dan dalam",
+        "landmarks": [
+            {
+                "body": "nose",
+                "coordinates": [
+                    0.5628798604011536,
+                    0.7248096466064453,
+                    0.01210903562605381
+                ]
+            },
+            {
+                "body": "left_eye_inner",
+                "coordinates": [
+                    0.5813349485397339,
+                    0.7287164926528931,
+                    0.03127932548522949
+                ]
+            },
+            {
+                "body": "left_eye",
+                "coordinates": [
+                    0.5829820036888123,
+                    0.7273746132850647,
+                    0.031220106407999992
+                ]
+            },
+            {
+                "body": "left_eye_outer",
+                "coordinates": [
+                    0.5846666693687439,
+                    0.725727379322052,
+                    0.031247761100530624
+                ]
+            },
+            {
+                "body": "right_eye_inner",
+                "coordinates": [
+                    0.582050085067749,
+                    0.7267493009567261,
+                    -0.011312590911984444
+                ]
+            },
+            {
+                "body": "right_eye",
+                "coordinates": [
+                    0.5841241478919983,
+                    0.7242953777313232,
+                    -0.011394376866519451
+                ]
+            },
+            {
+                "body": "right_eye_outer",
+                "coordinates": [
+                    0.5862455368041992,
+                    0.7216231226921082,
+                    -0.01138884574174881
+                ]
+            },
+            {
+                "body": "left_ear",
+                "coordinates": [
+                    0.5960964560508728,
+                    0.6948454976081848,
+                    0.11552777141332626
+                ]
+            },
+            {
+                "body": "right_ear",
+                "coordinates": [
+                    0.5962554216384888,
+                    0.6943814754486084,
+                    -0.08562052249908447
+                ]
+            },
+            {
+                "body": "mouth_left",
+                "coordinates": [
+                    0.5557056069374084,
+                    0.7101677656173706,
+                    0.046057529747486115
+                ]
+            },
+            {
+                "body": "mouth_right",
+                "coordinates": [
+                    0.5567565560340881,
+                    0.7077724933624268,
+                    -0.012964192777872086
+                ]
+            },
+            {
+                "body": "left_shoulder",
+                "coordinates": [
+                    0.568459153175354,
+                    0.6124014258384705,
+                    0.16313870251178741
+                ]
+            },
+            {
+                "body": "right_shoulder",
+                "coordinates": [
+                    0.5755824446678162,
+                    0.6274635791778564,
+                    -0.14889445900917053
+                ]
+            },
+            {
+                "body": "left_elbow",
+                "coordinates": [
+                    0.6586426496505737,
+                    0.7234721183776855,
+                    0.2619328796863556
+                ]
+            },
+            {
+                "body": "right_elbow",
+                "coordinates": [
+                    0.6796132922172546,
+                    0.7535068988800049,
+                    -0.254747599363327
+                ]
+            },
+            {
+                "body": "left_wrist",
+                "coordinates": [
+                    0.7799589037895203,
+                    0.7565622329711914,
+                    0.1533978134393692
+                ]
+            },
+            {
+                "body": "right_wrist",
+                "coordinates": [
+                    0.8231634497642517,
+                    0.7804771065711975,
+                    -0.11545612663030624
+                ]
+            },
+            {
+                "body": "left_pinky",
+                "coordinates": [
+                    0.8229506611824036,
+                    0.7547711133956909,
+                    0.14123603701591492
+                ]
+            },
+            {
+                "body": "right_pinky",
+                "coordinates": [
+                    0.8623271584510803,
+                    0.7792569994926453,
+                    -0.1392812281847
+                ]
+            },
+            {
+                "body": "left_index",
+                "coordinates": [
+                    0.8312538266181946,
+                    0.7571077346801758,
+                    0.12264466285705566
+                ]
+            },
+            {
+                "body": "right_index",
+                "coordinates": [
+                    0.8624335527420044,
+                    0.7710165977478027,
+                    -0.11542891710996628
+                ]
+            },
+            {
+                "body": "left_thumb",
+                "coordinates": [
+                    0.819536030292511,
+                    0.7561782598495483,
+                    0.13874202966690063
+                ]
+            },
+            {
+                "body": "right_thumb",
+                "coordinates": [
+                    0.852566123008728,
+                    0.7697901725769043,
+                    -0.10669933259487152
+                ]
+            },
+            {
+                "body": "left_hip",
+                "coordinates": [
+                    0.3079964816570282,
+                    0.5299449563026428,
+                    0.1357511729001999
+                ]
+            },
+            {
+                "body": "right_hip",
+                "coordinates": [
+                    0.30122482776641846,
+                    0.5358853340148926,
+                    -0.13596858084201813
+                ]
+            },
+            {
+                "body": "left_knee",
+                "coordinates": [
+                    0.4721745252609253,
+                    0.7268790602684021,
+                    0.18010562658309937
+                ]
+            },
+            {
+                "body": "right_knee",
+                "coordinates": [
+                    0.474482923746109,
+                    0.754838764667511,
+                    -0.1760706603527069
+                ]
+            },
+            {
+                "body": "left_ankle",
+                "coordinates": [
+                    0.2802489101886749,
+                    0.6927016973495483,
+                    0.26876959204673767
+                ]
+            },
+            {
+                "body": "right_ankle",
+                "coordinates": [
+                    0.26691827178001404,
+                    0.7064749002456665,
+                    -0.03039822168648243
+                ]
+            },
+            {
+                "body": "left_heel",
+                "coordinates": [
+                    0.263772189617157,
+                    0.6573830246925354,
+                    0.27235445380210876
+                ]
+            },
+            {
+                "body": "right_heel",
+                "coordinates": [
+                    0.2547761797904968,
+                    0.6644048094749451,
+                    -0.00975472666323185
+                ]
+            },
+            {
+                "body": "left_foot_index",
+                "coordinates": [
+                    0.20285025238990784,
+                    0.7399036288261414,
+                    0.30922240018844604
+                ]
+            },
+            {
+                "body": "right_foot_index",
+                "coordinates": [
+                    0.19206300377845764,
+                    0.7521188855171204,
+                    0.08358465135097504
+                ]
+            }
+        ]
+    }
+
+]

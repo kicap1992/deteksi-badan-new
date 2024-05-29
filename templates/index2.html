@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from demo.ninjateam.org/html/my-admin/light/page-starter.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 03 Jan 2018 03:48:56 GMT -->
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Yoga Pose Recognition</title>
+
+	<!-- Main Styles -->
+	<link rel="stylesheet" href="static/styles/style.min.css">
+
+	<!-- Material Design Icon -->
+	<link rel="stylesheet" href="static/fonts/material-design/css/materialdesignicons.css">
+
+	<!-- mCustomScrollbar -->
+	<link rel="stylesheet" href="static/plugin/mCustomScrollbar/jquery.mCustomScrollbar.min.css">
+
+	<!-- Waves Effect -->
+	<link rel="stylesheet" href="static/plugin/waves/waves.min.css">
+
+	<!-- Sweet Alert -->
+	<link rel="stylesheet" href="static/plugin/sweet-alert/sweetalert.css">
+	<style>
+		table {
+			border: 1px;
+			font-family: arial, sans-serif;
+			border-collapse: collapse;
+			width: 86%;
+			margin: auto;
+		}
+
+		td,
+		th {
+			border: 1px solid black !important;
+			padding: 5px;
+		}
+
+		tr:nth-child(even) {
+			background-color: #dddddd;
+		}
+	</style>
+
+</head>
+
+<body>
+	<div class="main-menu">
+		<header class="header">
+			<a href="" class="logo"><i class="ico mdi mdi-account-box"></i>Body Tracking</a>
+			<button type="button" class="button-close fa fa-times js__menu_close"></button>
+			<div class="user">
+				<!-- <a href="#" class="avatar"><img src="static/images/avatar-sm-5.jpg" alt=""><span
+						class="status online"></span></a> -->
+				<h5 class="name"><a href="">Pengguna</a></h5>
+				<h5 class="position">User</h5>
+				<!-- /.name -->
+				<!-- /.control-wrap -->
+			</div>
+			<!-- /.user -->
+		</header>
+		<!-- /.header -->
+		<div class="content">
+
+			<div class="navigation">
+				<h5 class="title">Navigation</h5>
+				<!-- /.title -->
+				<ul class="menu js__accordion">
+					<li class="current">
+						<a class="waves-effect ac" href="{{ url_for('index') }}"><i class="menu-icon mdi mdi-account-box"></i><span>Deteksi Pose</span></a>
+					</li>
+					<li>
+						<a class="waves-effect ac" href="{{ url_for('pose_dataset') }}"><i class="menu-icon mdi mdi-account-card-details"></i><span>Pose Dataset</span></a>
+					</li>
+				</ul>
+
+			</div>
+			<!-- /.navigation -->
+		</div>
+		<!-- /.content -->
+	</div>
+	<!-- /.main-menu -->
+
+	<div class="fixed-navbar">
+		<div class="pull-left">
+			<button type="button" class="menu-mobile-button glyphicon glyphicon-menu-hamburger js__menu_mobile"></button>
+			<h1 class="page-title"><span id="today_date"></span> | <span id="clock"></span></h1>
+			<!-- /.page-title -->
+		</div>
+		<!-- /.pull-left -->
+		<div class="pull-right">
+
+		</div>
+		<!-- /.pull-right -->
+	</div>
+	<!-- /.fixed-navbar -->
+
+
+
+
+	<!-- /#message-popup -->
+	<div id="wrapper">
+		<div class="main-content">
+			<div class="row small-spacing">
+				<div class="col-xs-6 col-md-6">
+                    <div class="box-content card">
+                        <!-- span italic -->
+						<h4 class="box-title">Pose <span id="pose" style="font-style: italic;"></span></h4>
+						<div class="card-content">
+							<img src="data:image/jpeg;base64,{{ img_str }}" style="width:100%; height:400px;">
+						</div>
+					</div>
+                </div>
+				<div class="col-xs-6 col-md-6">
+					<div class="box-content card">
+						<h4 class="box-title">Pose Tubuh <span id="similarity"></span></h4>
+						<div class="card-content">
+							<img src="{{ url_for('video_feed') }}" style="width:100%; height:400px;">
+						</div>
+					</div>
+				</div>
+
+
+
+			</div>
+			<div class="row small-spacing">
+				<div class="col-xs-2 col-md-2 text-center">
+                    <!-- url with parameters image_name-->
+                   <a href="{{ url_for('index', image_name=previous) }}"><button type="button" class="btn btn-primary btn-xs" id="previous">Sebelumnya</button></a>
+                </div>
+				<div class="col-xs-8 col-md-8">
+					<div class="box-content card">
+						<h4 class="box-title">Keterangan</h4>
+                        <!-- <br> -->
+                        <div class="card-content">
+                            <p id="keterangan" style="font-size: 15px;"></p>
+                        </div>
+						
+						
+					</div>
+				</div>
+				<div class="col-xs-2 col-md-2 text-center">
+                    <!-- create a next button  and put it on center-->
+                    <a href="{{ url_for('index', image_name=next) }}"><button type="button" class="btn btn-primary btn-xs" id="next">Selanjutnya</button></a>
+                </div>
+
+
+
+			</div>
+
+			<footer class="footer">
+				<ul class="list-inline">
+					<li>2024 © Muhammad Irsan.</li>
+					<!-- <li><a href="#">Website</a></li>
+					<li><a href="#">Facebook</a></li> -->
+					<!-- <li><a href="#">Help</a></li> -->
+				</ul>
+			</footer>
+		</div>
+		<!-- /.main-content -->
+	</div><!--/#wrapper -->
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="static/script/html5shiv.min.js"></script>
+		<script src="static/script/respond.min.js"></script>
+	<![endif]-->
+	<!-- 
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="static/scripts/jquery.min.js"></script>
+	<script src="static/scripts/modernizr.min.js"></script>
+	<script src="static/plugin/bootstrap/js/bootstrap.min.js"></script>
+	<script src="static/plugin/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="static/plugin/nprogress/nprogress.js"></script>
+	<script src="static/plugin/sweet-alert/sweetalert.min.js"></script>
+	<script src="static/plugin/waves/waves.min.js"></script>
+
+	<script src="static/scripts/main.min.js"></script>
+	<script>
+
+		var clockElement = document.getElementById('clock');
+        var date = new Date();
+
+		function clock() {
+			clockElement.textContent = new Date().toString().slice(15, 24);
+		}
+
+        function today_date() {
+            $('#today_date').html(date.toDateString());
+        }
+
+        today_date();
+
+		setInterval(clock, 1000);
+
+		// // check data every 2 seconds
+		setInterval(function () {
+			$.ajax({
+				url: 'http://127.0.0.1:5000/similarity',
+				type: 'GET',
+				success: function (data) {
+					console.log(data);
+                    var similarity = data.similarity;
+                    // only 2 behind .
+                    similarity = similarity.toFixed(2);
+                    $('#similarity').html(similarity+ ' % tingkat kesamaan');
+                    console.log(data.data.name);
+                    $("#pose").html(data.data.name);
+                    $('#keterangan').html(data.data.ket);
+					// if(data['ket'] == null){
+					// 	$('#keterangan').html('Tidak ada pose yang terdeteksi');
+					// }else{
+					// 	$('#keterangan').html(data['ket']);
+					// }
+				}
+			});
+		}, 2000);
+
+        // set interval 70 second and change pose
+        setInterval(function () {
+            window.location.href="{{ url_for('index', image_name=next) }}";
+        }, 70000);
+	</script>
+</body>
+
+<!-- Mirrored from demo.ninjateam.org/html/my-admin/light/page-starter.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 03 Jan 2018 03:48:56 GMT -->
+
+</html>
