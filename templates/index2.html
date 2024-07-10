@@ -145,7 +145,7 @@
 				</div>
 				<div class="col-xs-2 col-md-2 text-center">
                     <!-- create a next button  and put it on center-->
-                    <a href="{{ url_for('index', image_name=next) }}"><button type="button" class="btn btn-primary btn-xs" id="next">Selanjutnya</button></a>
+                    <a href="{{ url_for('index', image_name=next) }}"><button type="button" id="button_next" class="btn btn-primary btn-xs" id="next">Selanjutnya</button></a>
                 </div>
 
 
@@ -197,6 +197,8 @@
 
 		setInterval(clock, 1000);
 
+		var counter = 0;
+
 		// // check data every 2 seconds
 		setInterval(function () {
 			$.ajax({
@@ -205,6 +207,17 @@
 				success: function (data) {
 					console.log(data);
                     var similarity = data.similarity;
+
+					if (similarity <80) {
+						counter = 0
+					}else{
+						counter = counter + 1
+					}
+
+					if(counter == 3){
+						// click the button_next id
+						$('#button_next').trigger('click');
+					}
                     // only 2 behind .
                     similarity = similarity.toFixed(2);
                     $('#similarity').html(similarity+ ' % tingkat kesamaan');

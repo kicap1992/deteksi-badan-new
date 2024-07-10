@@ -42,6 +42,16 @@ def load_image_and_landmarks(image_name):
             dataset["name"] = the_data['name']
             dataset["ket"] = the_data['ket']
 
+# Define the function to calculate the color based on similarity
+def calculate_color(similarity):
+    if similarity < 70:
+        return (0, 0, 255)  # Red
+    else:
+        normalized_similarity = (similarity - 55) / 45  # Normalize between 0 and 1 for values 71 to 100
+        red = int((1 - normalized_similarity) * 255)
+        green = int(normalized_similarity * 255)
+        return (0, green, red)
+
 def calculate_similarity(landmarks1, landmarks2):
     if not landmarks1 or not landmarks2:
         return 0
@@ -52,6 +62,7 @@ def calculate_similarity(landmarks1, landmarks2):
     return similarity * 100
 
 def draw_landmarks(image, landmarks):
+    global similarity
     annotated_image = image.copy()
     for landmark in landmarks:
         landmark_x = int(landmark['coordinates'][0] * annotated_image.shape[1])
@@ -88,14 +99,14 @@ def generate_frames():
             results = pose.process(image_rgb)
             image_rgb.flags.writeable = True
             image_bgr = cv2.cvtColor(image_rgb, cv2.COLOR_RGB2BGR)
-
+            the_color = calculate_color(similarity)
             if results.pose_landmarks:
                 mp_drawing.draw_landmarks(
                     image_bgr,
                     results.pose_landmarks,
                     mp_pose.POSE_CONNECTIONS,
                     mp_drawing.DrawingSpec(color=(0, 255, 0), thickness=4, circle_radius=2),
-                    mp_drawing.DrawingSpec(color=(0, 0, 255), thickness=4, circle_radius=2),
+                    mp_drawing.DrawingSpec(color=(the_color), thickness=4, circle_radius=2),
                 )
 
                 landmarks_from_webcam = []
